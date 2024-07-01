@@ -79,7 +79,7 @@ export enum ModelProvider {
 }
 
 export const Anthropic = {
-  ChatPath: "",
+  ChatPath: "v1/message",
   ChatPath1: "v1/complete",
   ExampleEndpoint: "https://api.anthropic.com",
   Vision: "2023-06-01",
